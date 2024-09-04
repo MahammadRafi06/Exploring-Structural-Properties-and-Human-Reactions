@@ -15,7 +15,7 @@ Welcome to **Drug-Response Analyzer**, a comprehensive tool designed to analyze 
 
 ## Overview
 
-This project analyzes the structural properties of compounds in drug molecules to investigate how they cause certain reactions in humans. Using data in the SDF format, the application converts it into JSON format and utilizes a series of machine learning and NLP techniques to generate insightful responses to user queries. The app is powered by OpenAI's LLM and served via Streamlit for interactive user experiences.
+This project analyzes the structural properties of compounds in drug molecules to investigate how they cause certain reactions in humans. Using data in the SDF format, the application converts it into JSON format and utilizes a series of LLM techniques to generate insightful responses to user queries. The app is powered by OpenAI's LLM and served via Streamlit for interactive user experiences.
 
 ## Key Features
 
