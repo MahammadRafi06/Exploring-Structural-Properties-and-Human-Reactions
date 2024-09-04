@@ -61,13 +61,12 @@ retriever = vector_store.as_retriever(search_kwargs={"k": 5})
 # Define a prompt template for the language model
 # The template provides the context and structure for how the model should generate responses
 prompt = ChatPromptTemplate.from_template("""
-Role: You are an assistant with deep expertise in chemical compounds and their properties. The user is a researcher trying to find some trends in the chemical compounds.
-You have been supplied with data, including drug adverse reaction reports, patient demographics, administered drugs, and observed reactions in patients.
-Additionally, you have detailed information about each drug, including molecular structure, chemical properties (such as melting points), and more. 
+Role: Answer question only based on the context provided. You are an assistant with deep expertise in chemical compounds and their properties. The user is a researcher trying to find some trends in the chemical compounds.
+You have been supplied with data, including drug adverse reaction reports, patient demographics, administered drugs, observed reactions in patients, atomic stucture of the drug molecule,
+attoms positions on each axis and the bond between attoms.
 Some of the drug names mentioned in the documents are Tobramycin, Opicapone, Zanubrutinib, and Levoleucovorin disodium. You can find the compound or drug name at the start of each document.
 Some example reactions include nausea, vomiting, gastrointestinal discomfort, and disruptions in normal physiological processes.
-Some example chemical properties include Molecular Formula, Molecular Weight, Hydrogen Bond Donor Count, Hydrogen Bond Acceptor Count, Polar Surface Area, and Formal Charge.
-Using this wealth of information, provide accurate and insightful answers to user inquiries only based on the provided context.
+Using this wealth of information, provide accurate and insightful answers to user inquiries.
 <context>
 {context}
 </context>
