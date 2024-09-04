@@ -1,6 +1,6 @@
 # Drug-Response Analyzer: Exploring Structural Properties and Human Reactions
 
-Welcome to **Drug-Response Analyzer**, a comprehensive tool designed to analyze and uncover the relationship between the structural properties of compounds or drugs and their reactions in humans when consumed. This app allows users to explore drug properties through a streamlined process, leveraging cutting-edge natural language processing (NLP) and machine learning techniques.
+Welcome to **Drug-Response Analyzer**, a comprehensive tool designed to analyze and uncover the relationship between the structural properties of compounds or drugs and their reactions in humans when consumed. This app allows users to explore drug properties through a streamlined process, leveraging cutting-edge Large Language Models(LLMs).
 
 ## Table of Contents
 
